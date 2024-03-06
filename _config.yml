@@ -10,7 +10,7 @@ description: >
 
 minima:
   skin: auto
-  date_format: "%b-%d-%Y"
+  date_format: "%Y-%d-%m"
   social_links:
     - { platform: github,         user_url: "https://github.com/jekyll/mirgee" }
     - { platform: linkedin,       user_url: "https://www.linkedin.com/in/miroslav-kovar-a9b06b115" }
