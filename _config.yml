@@ -1,0 +1,25 @@
+title: mirgee's blog
+author: Miroslav Kovar
+email: miroslavkovar@protonmail.com
+
+#description: >
+#  Write an awesome description for your new site here. You can edit this line
+#  in _config.yml. It will appear in your document head meta (for Google search
+#  results) and in your feed.xml site description.
+
+# social links
+github_username:  mirgee
+linkedin_username: miroslav-kovar-a9b06b115
+# rss: rss
+
+source: ./
+baseurl: ""
+header_pages:
+  - index.md
+
+show_excerpts: false
+theme: minima
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed
