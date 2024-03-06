@@ -1,25 +1,29 @@
 title: mirgee's blog
-author: Miroslav Kovar
-email: miroslavkovar@protonmail.com
+author:
+  name: Miroslav Kovar
+  email: miroslavkovar@protonmail.com
 
-#description: >
-#  Write an awesome description for your new site here. You can edit this line
-#  in _config.yml. It will appear in your document head meta (for Google search
-#  results) and in your feed.xml site description.
+description: >
+  Write an awesome description for your new site here. You can edit this line
+  in _config.yml. It will appear in your document head meta (for Google search
+  results) and in your feed.xml site description.
 
-# social links
-github_username:  mirgee
-linkedin_username: miroslav-kovar-a9b06b115
-# rss: rss
+minima:
+  skin: auto
+  date_format: "%b-%d-%Y"
+  social_links:
+    - { platform: github,         user_url: "https://github.com/jekyll/mirgee" }
+    - { platform: linkedin,       user_url: "https://www.linkedin.com/in/miroslav-kovar-a9b06b115" }
+    - { platform: stackoverflow,  user_url: "https://stackexchange.com/users/4049915/mirgee" }
 
-source: ./
-baseurl: ""
 header_pages:
   - index.md
 
 show_excerpts: false
-theme: minima
+
+remote_theme: jekyll/minima
 
 plugins:
+  - jekyll-remote-theme
   - jekyll-seo-tag
   - jekyll-feed
